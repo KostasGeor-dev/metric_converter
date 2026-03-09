@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background-color: #1f2937;
+  font-family: "inter", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 550px;
+  height: 729px;
+}
+
+.box1 {
+  height: 285px;
+  background-color: #6943ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+#number-input {
+  background-color: #6943ff;
+  padding: 0;
+  width: auto;
+  max-width: 150px;
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  border: 2px solid #b295ff;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 27px;
+  color: white;
+}
+
+.box1 button {
+  padding: 12px 30.5px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.box2 {
+  height: 444px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 h2 {
+  color: #5a537b;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.sub-box1,
+.sub-box2,
+.sub-box3 {
+  width: 500px;
+  height: 108px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-box2 {
+  margin: 23.5px 0;
+}
+
+#length-c,
+#volume-c,
+#mass-c {
+  font-size: 14px;
+}
